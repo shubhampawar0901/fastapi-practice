@@ -29,7 +29,7 @@ class TheaterCreate(BaseModel):
 
 class TheaterOut(BaseModel):
     id: int
-
+    address: str
 
     class Config:
         orm_mode = True
