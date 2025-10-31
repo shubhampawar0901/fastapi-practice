@@ -1,4 +1,12 @@
-🎬 Movie Ticket Booking System
+# How to run the project
+
+1. Clone the repository
+2. Create a virtual environment
+3. Install the dependencies
+4. Run the project command `uvicorn app.main:app --reload`
+
+
+# 🎬 Movie Ticket Booking System
 Goal:
 
 Design and implement RESTful APIs for a movie ticket booking system that allows admins to manage movies, theatres, screens, and shows, and enables users to browse, select seats, and book tickets. The system should include authentication and role-based access control.
